@@ -1,0 +1,126 @@
+body {
+  font-family: monospace;
+  font-size: 1.4em;
+}
+
+h2 {
+  font-size: 1.17em;
+}
+
+/* Page layout  */
+
+/* header,
+nav,
+main {
+  width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+} */
+
+/* Navigation menu */
+
+nav li {
+  display: inline-block;
+  width: 165px;
+}
+
+nav a {
+  font-size: 1.2em;
+  color: #6789ab;
+  border: 1px solid #000;
+  display: block;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+/*Table*/
+
+table {
+  margin-bottom: 5px;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 3px 10px;
+}
+table td:first-of-type {
+  /* min-width: 150px; */
+}
+table td:last-of-type {
+  /* min-width: 300px; */
+}
+table tr:first-child {
+  color: white;
+  background-color: black;
+}
+table tr:nth-child(2) {
+  background-color: lightgreen;
+}
+table tr:nth-child(3) {
+  background-color: lightyellow;
+}
+table tr:last-child {
+  background-color: lightgray;
+}
+
+/* Centreren h1, ul en table */
+h1,
+nav ul {
+  text-align: center;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*  Breedte van header, nav en main beperken */
+header,
+nav,
+main {
+  max-width: 640px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* We plaatsen een breakpoint bij 1096px */  
+
+@media screen and (min-width: 1096px) {
+  /* Bij een wijde viewport (desktop) verbreden we header, nav en main  */
+  header,
+  nav,
+  main {
+    max-width: 1080px;
+  }
+
+  /* Bij een wijde viewport plaatsen we de nav en de tabel terug links 
+  in plaats van deze te centreren. */
+  table {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  nav ul {
+    text-align: left;
+  }
+
+  /* Bij een wijde viewport verbreden we de tabel*/
+  table td:first-of-type {
+    min-width: 150px;
+  }
+  table td:last-of-type {
+    min-width: 300px;
+  }
+}
