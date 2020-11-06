@@ -12,7 +12,8 @@ Voer onderstaande stappen uit om deze webpagina om te bouwen naar een 'responsiv
 
 - We gaan werken volgens het 'Mobile First Design' concept. Plaats de CSS-regels die zorgen voor de page layout op een desktop in commentaar:
   
-  ```header,
+  ```
+  header,
   nav,
   main {
     width: 1080px;
