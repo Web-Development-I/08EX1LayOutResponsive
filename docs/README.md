@@ -74,7 +74,7 @@ Te bekomen resultaat op een desktop:
     - donkergrijze rand (1pixel)
     - de afbeelding moet de volledige breedte innemen van zijn parent en automatisch breder en smaller worden als de vensterbreedte wijzigt (responsive image)
 
-- Van zodra de afbeelding zijn volle breedte bereikt heeft, m.a.w.de layout viewport is breder dan 466 pixels (8px margin + 1px border + 3px padding + 448px + 3px + 1px + 8px), laat je de tekst rond het figure-element lopen. Maak eerst de afbeelding kleiner (320 pixels) zodat er ruimte is voor de tekst links van de afbeelding. Voorzie onder en links van het figure-element wat extra witruimte (0,75 rem).
+- Van zodra de afbeelding zijn volle breedte bereikt heeft, m.a.w.de layout viewport is breder dan 472 pixels (8px margin + 1px border + 3px padding + 448px + 3px + 1px + 8px), laat je de tekst rond het figure-element lopen. Maak eerst de afbeelding kleiner (320 pixels) zodat er ruimte is voor de tekst links van de afbeelding. Voorzie onder en links van het figure-element wat extra witruimte (0,75 rem).
   
 - Op een desktop mag het main-element nooit breder worden dan 640 pixels en moet het element horizontaal gecentreerd worden.
 
