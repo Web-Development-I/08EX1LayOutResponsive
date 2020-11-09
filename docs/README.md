@@ -37,7 +37,7 @@ Voer onderstaande stappen uit om deze webpagina om te bouwen naar een 'responsiv
 
   ![scherm_max640px](images/01_werelddelen_mobile_first_640_b.png)
 
-- Ons ontwerp is nu bruikbaaar bij verschillende vensterbreedtes, maar bij een gemaximaliseerd browservenster op een desktop zouden we graag terug 6 navigatielinks en 1080 pixels gebruiken voor de header-, nav- en main-elementen en een bredere tabel, zoals dit in het ontwerp waarvan we vertrokken zijn het geval was. Implementeer dit.<br>
+- Ons ontwerp is nu bruikbaar bij verschillende vensterbreedtes, maar bij een gemaximaliseerd browservenster op een desktop zouden we graag terug 6 navigatielinks en 1080 pixels gebruiken voor de header-, nav- en main-elementen en een bredere tabel, zoals dit in het ontwerp waarvan we vertrokken zijn het geval was. Implementeer dit.<br>
   
   **Tips** Van zodra de layout viewport minimaal een breedte heeft van 1096 pixels (1080 pixels + twee marges van 8 pixels) moet je:
   - de breedte van header, nav en main terug instellen op 1080 pixels + de elementen centreren.
@@ -74,7 +74,7 @@ Te bekomen resultaat op een desktop:
     - donkergrijze rand (1pixel)
     - de afbeelding moet de volledige breedte innemen van zijn parent en automatisch breder en smaller worden als de vensterbreedte wijzigt (responsive image)
 
-- Van zodra de afbeelding zijn volle breedte bereikt heeft, m.a.w.de layout viewport is breder dan 466 pixels (8+1+448+1+8), laat je de tekst rond het figure-element lopen. Maak eerst de afbeelding kleiner (320 pixels) zodat er ruimte is voor de tekst links van de afbeelding. Voorzie onder en links van het figure-element wat extra witruimte (0,75 rem).
+- Van zodra de afbeelding zijn volle breedte bereikt heeft, m.a.w.de layout viewport is breder dan 466 pixels (8px margin + 1px border + 3px padding + 448px + 3px + 1px + 8px), laat je de tekst rond het figure-element lopen. Maak eerst de afbeelding kleiner (320 pixels) zodat er ruimte is voor de tekst links van de afbeelding. Voorzie onder en links van het figure-element wat extra witruimte (0,75 rem).
   
 - Op een desktop mag het main-element nooit breder worden dan 640 pixels en moet het element horizontaal gecentreerd worden.
 
